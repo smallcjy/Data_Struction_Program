@@ -127,13 +127,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="double_list.h" />
-    <ClInclude Include="stlStack.h" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="queue.h" />
-    <ClCompile Include="stackArr.h" />
+    <ClInclude Include="AVLtree.h" />
+    <ClInclude Include="BinaryTree.h" />
+    <ClInclude Include="SplayTree.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
